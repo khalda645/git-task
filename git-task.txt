@@ -1,0 +1,71 @@
+Last login: Tue Jul  1 23:14:48 on ttys000
+khaldasatti@Khaldas-MacBook-Pro ~ % cd  ~/Desktop/git-task
+khaldasatti@Khaldas-MacBook-Pro git-task % git init
+
+Reinitialized existing Git repository in /Users/khaldasatti/Desktop/git-task/.git/
+khaldasatti@Khaldas-MacBook-Pro git-task % git status
+
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   hello-world.js
+
+khaldasatti@Khaldas-MacBook-Pro git-task % git add hello-world.js
+
+khaldasatti@Khaldas-MacBook-Pro git-task % git status
+
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   hello-world.js
+
+khaldasatti@Khaldas-MacBook-Pro git-task % git status
+
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   hello-world.js
+
+khaldasatti@Khaldas-MacBook-Pro git-task % git add hello-world.js
+
+khaldasatti@Khaldas-MacBook-Pro git-task % git status
+
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   hello-world.js
+
+khaldasatti@Khaldas-MacBook-Pro git-task % git commit -m "Update hello-world.js message to 'Happy!'"
+[main d0b2794] Update hello-world.js message to 'Happy!'
+ Committer: Khalda Satti <khaldasatti@Khaldas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+khaldasatti@Khaldas-MacBook-Pro git-task % git status
+
+On branch main
+nothing to commit, working tree clean
+khaldasatti@Khaldas-MacBook-Pro git-task % git log
+
+commit d0b2794bd3c73926bab335205d301665cf8837ea (HEAD -> main)
+Author: Khalda Satti <khaldasatti@Khaldas-MacBook-Pro.local>
+Date:   Tue Jul 1 23:22:40 2025 +0100
+
+    Update hello-world.js message to 'Happy!'
+
+commit 555a634b5c142744b143d00262ac46d4ee10221f
+Author: Khalda Satti <khaldasatti@Khaldas-MacBook-Pro.local>
+Date:   Tue Jul 1 23:06:36 2025 +0100
+
+    Add hello_world.js with Hello World message
+khaldasatti@Khaldas-MacBook-Pro git-task % 
